@@ -1,0 +1,19 @@
+<view class="container">
+<view class="ss">
+  <view class=" container-pickup" style="background-color:{{bgcolor}}" bindtap="onPickupDynamic">
+  <view class="pickup">
+    <text class="pickup-text" style="color:{{sscolor}}">拾拾</text>
+    </view>
+  </view>
+  <view class="container-lose" style="background-color:{{sscolor}}" bindtap="onLoseDynamic">
+  <view class="lose">
+    <text class="lose-text" style="color:{{bgcolor}}" >失失</text>
+    </view>
+  </view>
+  </view>
+  <view class="ss-text">
+  <text class="text1">找到失主So easy</text>
+  <text class="text2">人间有真情</text>
+  <text class="text3">人间有真爱,真的</text>
+  </view>
+</view>

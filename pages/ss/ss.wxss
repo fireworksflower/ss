@@ -1,0 +1,86 @@
+Page{
+   width: 100%;
+  height: 100%;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+}
+.ss{
+  display:flex;
+  flex-direction: row;
+ width: 700rpx;
+ height: 600rpx;
+ background-color: #EEEEEE;
+  margin-top: 210rpx;
+
+  
+  
+}
+.container-pickup {
+  margin-left: 50rpx;
+  width: 260rpx;
+  height: 420rpx;
+  border-radius: 400rpx;
+  border: 3rpx solid #333;
+  margin-top: 100rpx;
+  margin-right: 50rpx;
+  background-color: #ffffff;
+  
+}
+
+.pickup {
+  margin-top: 150rpx;
+  margin-left: 50rpx;
+  
+
+}
+
+.pickup-text {
+  font-size: 80rpx;
+}
+
+.lose {
+   margin-top: 150rpx;
+  margin-left: 50rpx;
+}
+
+.container-lose {
+  margin-right: 50rpx;
+  width: 260rpx;
+  height: 420rpx;
+  border-radius: 400rpx;
+  border: 3rpx solid #333;
+ margin-top: 100rpx;
+ background-color: #ffffff;
+
+}
+
+.lose-text {
+    font-size: 80rpx;
+
+}
+.ss-text{
+  display:flex;
+  flex-direction: column;
+  margin-bottom: 200rpx;
+}
+.text1{
+  font-size: 50rpx;
+   text-align: center;
+   font-weight: bold;
+}
+.text2{
+  font-size: 30rpx;
+  text-align: center;
+  
+}
+.text3{
+  font-size: 30rpx;
+   text-align: center;
+}
+
+
