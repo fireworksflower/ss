@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/details/detail",
+   
+    "pages/me/me",
+    "pages/user/user",
+    "pages/chat/chat",
+    "pages/ss/ss",
+    "pages/lose-dynamic/lose-dynamic",
+    "pages/pickup-dynamic/pickup-dynamic"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarTextStyle": "#ffffff",
+    "enablePullDownRefresh": true,
+    "onReachBottom": true
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#be181b",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "images/tabBar/home.png",
+        "selectedIconPath": "images/tabBar/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "iconPath": "images/tabBar/user.png",
+        "selectedIconPath": "images/tabBar/user-active.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}
