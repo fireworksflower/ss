@@ -1,0 +1,25 @@
+<view class="container">
+  <view class="user-top">
+    <image class="avatar" src="http://soupu.oss-cn-shanghai.aliyuncs.com/images/banner4.jpg"></image>
+    <text class=" user-name">{{info.nickname}}</text>
+    <text class=" user-info">{{info.signature}}</text>
+  </view>
+  <view class="info">
+  <view class="location">
+    <image src="/images/user/dot.png"></image>
+    <text class="location-text">居住地址:</text>
+    <text class="location-input">{{info.locate}}</text>
+    <!--<input class="location-input" placeholder="{{info.locate}}" auto-focus/>-->
+  </view>
+  <view class="contact">
+    <image src="/images/user/dot.png"></image>
+    <text class="contact-text">联系方式:</text>
+    <text class="contact-input">{{info.contact}}</text>
+    <!--<input class="contact-input" placeholder="{{info.contact}}" auto-focus/>-->
+  </view>
+  </view>
+  <view class="dynamic">
+    <button class="dynamic-me">他的动态</button>
+    <button class="dynamic-private" bindtap="onPrivate">私信</button>
+  </view>
+</view>
