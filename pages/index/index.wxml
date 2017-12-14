@@ -1,0 +1,84 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="head">
+   
+    <view class="head-ss">
+      <view class="ss-left" bindtap="onPickup" style="background-color:{{ssLeftColor}}">
+
+        <text class="text-left" style="color:{{ssRightColor}}"> 拾拾</text>
+      </view>
+      <view class="ss-right" bindtap="onLose" style="background-color:{{ssRightColor}}">
+        <text class="text-right" style="color:{{ssLeftColor}}">失失</text>
+      </view>
+    </view>
+    <view class="head-dynamic">
+      <image class="dynamic" src="/images/head/add.png" bindtap="onDynamic"></image>
+    </view>
+  </view>
+
+
+
+  <view class="items">
+    <view class="item" wx:for="{{lists}}" wx:for-item="v" data-id="{{index}}" data-title="{{v.title}}">
+      <view class="information" bindtap="detail">
+        <view class="i-top">
+
+          <image class="i-img" src="{{v.imgUrl}}"></image>
+        </view>
+        <view class="content">
+          <view class="c-top">
+            <text class="title">{{v.title}}</text>
+
+            <text class="info ellipsis-3">{{v.info}}</text>
+          </view>
+        </view>
+      </view>
+
+      <!--底部动态底部菜单，关注评论按钮-->
+      <view class="c-bottom">
+        <view class="user">
+          <image class="u-img" src="{{v.avatar}}" bindtap="onMe"></image>
+          <view class="u-box">
+            <text class="u-name">{{v.uName}}</text>
+            <text class="u-time">{{v.time}}</text>
+          </view>
+        </view>
+        <view class="right">
+          <view class="right-brower" bindtap="viewCollect" data-index="{{viewStatus.img}}" data-count="{{viewStatus.count}}">
+             <image src="{{viewStatus.img}}"></image> 
+           <!-- <image src="/images/index/view.png"></image> -->
+            <text class="r-icon-browse"> {{viewStatus.count}}</text>
+          </view>
+          <view class="right-like" bindtap="collect" data-index="{{followStatus.img}}" data-count="{{followStatus.count}}">
+            <image  src="{{followStatus.img}}"></image>
+            <!--<image wx:if="{{v.is_like == true}}" src="/images/index/like-active.png"></image>-->
+            <text class="r-icon-like"> {{followStatus.count}}</text>
+          </view>
+
+          <!--<view class="right-like" catchtap="collect" data-index="{{index}}">
+            <image wx:if="{{collected}}" src="/images/index/like.png" catchtap="onCollectionTap"></image>
+            <image wx:else src="/images/index/like-active.png" catchtap="onCollectionTap"></image>
+            <text src="/images/index/like-actived" class="r-icon-like"> {{v.like}}</text>
+          </view>-->
+          <view class="right-comment" bindtap="onComment">
+            <image src="/images/index/comment.png"></image>
+            <text class="r-icon-comment">{{commentStatus.count}}</text>
+          </view>
+        </view>
+      </view>
+
+
+    </view>
+
+  </view>
+  <view class="weui-loadmore weui-loadmore_line weui-bg-transparent">
+    <view class="weui-loadmore__tips weui-loadmore__tips_in-line">我是有底线的</view>
+  </view>
+
+
+  <!--悬浮菜单-->
+  <!--<view class="menu">
+        <text class="iconfont icon-svg35"></text>
+    </view>-->
+</view>

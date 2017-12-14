@@ -1,0 +1,173 @@
+page {
+  /*margin-top: -50rpx;*/
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #eee;
+  /*margin-top: 0;*/
+}
+
+
+
+/*.head {
+  background-color: #e0210e;
+  width: 100%;
+  height: 70rpx;
+  
+}*/
+/*.privateMsg{
+  background-color: #ffffff;
+text-align: center;
+  width: 120rpx;
+  height: 63rpx;
+  font-size: 26rpx;
+  color: #e0210e;
+  margin-right: 6rpx;
+  margin-top: 5rpx;
+  margin-bottom: 5rpx;
+  opacity: 0.9;
+}*/
+/*.head-secret {
+  width: 30rpx;
+  height: 50rpx;
+  border: 2rpx solid #000;
+}
+.secret {
+  width: 20rpx;
+  height: 50rpx;
+  color: #fff;
+  margin-top: 10rpx;
+  margin-right: 0rpx;
+  margin-left: 650rpx;
+}*/
+
+.user-top {
+  width: 100%;
+  height: 500rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  margin-top: -40rpx;
+  /*font-size: 14px;*//*margin-bottom: 20rpx;*//*padding: 10px 15px;*/
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1), 0 6px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 80rpx auto 10px auto;
+}
+
+.user-name {
+  color: #000;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+
+.user-info {
+  font-size: 30rpx;
+  color: #000;
+}
+
+.weui-panel {
+  width: 100%;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: -50rpx;
+}
+
+.location {
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  margin-top: 20rpx;
+  margin-bottom: 50rpx;
+  background-color: #fff;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1), 0 6px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+/*.location {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+  margin-top: -200rpx;
+}*/
+
+.location image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 5rpx;
+}
+
+.location-text {
+  width: 230rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 1rpx;
+  margin-top: 20rpx;
+}
+
+.location-input {
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  height: 80rpx;
+  /*margin-left: 40rpx;*//*margin-bottom: 150rpx;*/
+  margin-top: 10rpx;
+  background-color: #fff;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.1), 0 6px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+.contact image {
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 5rpx;
+}
+
+.contact-text {
+  width: 230rpx;
+  font-size: 30rpx;
+  font-weight: bold;
+  margin-left: 1rpx;
+  margin-top: 20rpx;
+}
+
+.contact-input {
+  margin-top: 5rpx;
+  font-size: 30rpx;
+  margin-top: 20rpx;
+}
+
+.dynamic {
+  margin-bottom: 140rpx;
+  height: 100rpx;
+}
+
+button {
+  text-align: center;
+  font-size: 40rpx;
+  color: #fff;
+  background-color: #e0210e;
+  width: 500rpx;
+  height: 100rpx;
+}

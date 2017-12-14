@@ -1,0 +1,28 @@
+<form>
+<view class="container">
+<!--<view class="head">
+</view>-->
+<view class="dynamic">
+  <view class="dynamic-words">
+    <textarea auto-focus placeholder="此刻想说..." bindfocus="focus" bindblur="blur"  ></textarea>
+  </view>
+  <view class="dynamic-image">
+  <image class="add-image" src="/images/dynamic/add.png"></image>  
+  </view>
+  </view>
+ 
+  <view class="locate">
+  <image src="/images/ss/locate.png"></image>
+  <text class="locate-text">拾到地点:</text>
+  <input class="locate-input" placeholder="请输入地点"/>
+  </view>
+  <view class="time">
+  <image src="/images/ss/time.png"></image>
+   <text class="time-text">拾到时间:</text>
+  <input class="time-input" placeholder="请输入时间"/>
+  </view>
+  <view class="publish">
+  <button>发布</button>
+  </view>
+</view>
+</form>

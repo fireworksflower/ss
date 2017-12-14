@@ -1,0 +1,110 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #eee;
+  /*margin-top: -200rpx;*/
+}
+
+/*.head{
+  width:100%;
+  height: 60rpx;
+  background-color: #333;
+  margin-top: 0;
+}*/
+.dynamic{
+   width: 100%;
+   height:500rpx;
+   background-color: #fff;
+   margin-bottom: 50rpx;
+}
+.dynamic-words {
+  /*border: 3rpx solid #333;*/
+  
+  width: 100%;
+  height: 400rpx;
+  margin-top: 0;
+  margin-bottom: 10rpx;
+}
+.dynamic-image{
+  width: 100%;
+  height: 100rpx;
+}
+.add-image {
+  width: 100rpx;
+  height: 100rpx;
+ 
+
+}
+
+.locate {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+ margin-top: -180rpx;
+}
+
+.locate image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 17rpx;
+}
+
+.locate-text {
+  margin-left: 10rpx;
+  margin-top: 25rpx;
+  font-size: 30rpx;
+}
+
+.locate-input {
+  margin-top: 25rpx;
+  font-size: 30rpx;
+}
+
+.time {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100rpx;
+  background-color: #fff;
+  margin-top: -180rpx;
+}
+
+.time image {
+  width: 40rpx;
+  height: 40rpx;
+  margin-top: 25rpx;
+}
+
+.time-text {
+  font-size: 30rpx;
+  margin-left: 10rpx;
+  margin-top: 25rpx;
+}
+
+.time-input {
+  margin-top: 25rpx;
+  font-size: 30rpx;
+}
+.publish{
+  margin-bottom: 260rpx;
+  height: 100rpx;
+
+}
+button {
+  text-align: center;
+  font-size: 50rpx;
+  color: #ffffff;
+  background-color: #E0210E;
+  width: 500rpx;
+  height: 120rpx;
+ 
+}
